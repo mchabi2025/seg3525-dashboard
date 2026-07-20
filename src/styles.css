@@ -1,0 +1,40 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+section {
+  width: 50%;
+}
+
+.lang-selector button {
+  margin-left: 10px;
+  padding: 6px 12px;
+}
+
+.lang-selector .active {
+  background-color: #2b8a3e;
+  color: white;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #555;
+}
